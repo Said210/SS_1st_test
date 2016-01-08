@@ -8,12 +8,15 @@
 
 import Alamofire
 import UIKit
+import SwiftyJSON
+
 
 class ViewController: UIViewController {
 
     @IBOutlet weak var email: UITextField!
     @IBOutlet weak var password: UITextField!
     @IBOutlet weak var alert: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -30,7 +33,11 @@ class ViewController: UIViewController {
         comp += email.text!
         comp += "\n password: "
         comp += password.text!
-        alert.text = comp
+//        SS_handler.new_user(username: "Pepe", pw: "contrasena")
+        let ss = SS_handler()
+        let result = JSON(ss.new_user("Pepe", pw: "contrasena"))
+        print(result)
+        
     }
 
 }

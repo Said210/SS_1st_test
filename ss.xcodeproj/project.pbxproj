@@ -18,6 +18,7 @@
 		AE338AB11C3A38D700E41D09 /* tumblr_m9p3ctVLW11rn6amko1_500.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AE338AB01C3A38D700E41D09 /* tumblr_m9p3ctVLW11rn6amko1_500.jpg */; };
 		AE338AB31C3A392D00E41D09 /* 06f1e928-015e-439a-bc74-8f0610f9a2db.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AE338AB21C3A392D00E41D09 /* 06f1e928-015e-439a-bc74-8f0610f9a2db.jpg */; };
 		AE338AB51C3A3C7500E41D09 /* 23526973394_90c629b79d_h.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AE338AB41C3A3C7500E41D09 /* 23526973394_90c629b79d_h.jpg */; };
+		AEA445141C3D71E600A3C3E3 /* SS_handler.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA445131C3D71E600A3C3E3 /* SS_handler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		AE338AB01C3A38D700E41D09 /* tumblr_m9p3ctVLW11rn6amko1_500.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tumblr_m9p3ctVLW11rn6amko1_500.jpg; sourceTree = "<group>"; };
 		AE338AB21C3A392D00E41D09 /* 06f1e928-015e-439a-bc74-8f0610f9a2db.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "06f1e928-015e-439a-bc74-8f0610f9a2db.jpg"; sourceTree = "<group>"; };
 		AE338AB41C3A3C7500E41D09 /* 23526973394_90c629b79d_h.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 23526973394_90c629b79d_h.jpg; sourceTree = "<group>"; };
+		AEA445131C3D71E600A3C3E3 /* SS_handler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SS_handler.swift; sourceTree = "<group>"; };
 		D33475A6FBB43444004B6603 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -136,6 +138,7 @@
 				AE338AB41C3A3C7500E41D09 /* 23526973394_90c629b79d_h.jpg */,
 				AE338AB21C3A392D00E41D09 /* 06f1e928-015e-439a-bc74-8f0610f9a2db.jpg */,
 				AE338AB01C3A38D700E41D09 /* tumblr_m9p3ctVLW11rn6amko1_500.jpg */,
+				AEA445131C3D71E600A3C3E3 /* SS_handler.swift */,
 			);
 			path = ss;
 			sourceTree = "<group>";
@@ -345,6 +348,7 @@
 			files = (
 				AE338A851C3A372A00E41D09 /* ViewController.swift in Sources */,
 				AE338A831C3A372A00E41D09 /* AppDelegate.swift in Sources */,
+				AEA445141C3D71E600A3C3E3 /* SS_handler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
